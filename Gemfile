@@ -62,3 +62,5 @@ end
 
 
 gem "rspec-rails", "~> 6.1"
+
+gem "devise", "~> 4.9"
