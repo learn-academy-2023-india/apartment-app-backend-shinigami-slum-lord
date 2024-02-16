@@ -1,5 +1,5 @@
-user1 = User.where(email: "JackDaniels32@learn.com").first_or_create(password: "password", password_confirmation: "password")
-user2 = User.where(email: "HarryPotter@hogwarts.com").first_or_create(password: "password", password_confirmation: "password")
+user1 = User.where(email: 'JackDaniels32@learn.com').first_or_create(password: 'password', password_confirmation: 'password')
+user2 = User.where(email: 'HarryPotter@hogwarts.com').first_or_create(password: 'password', password_confirmation: 'password')
 
 user1_apartments = [
   { street: '27 Elm Street',
